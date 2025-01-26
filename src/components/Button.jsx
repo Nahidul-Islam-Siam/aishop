@@ -16,15 +16,15 @@ const Button = ({ children, onClick, variant = 'primary', size = 'medium', class
       variantStyles = "bg-none border border-black text-gray-300 hover:bg-gray-600 hover:text-white hover:text-slate-300";
       break;
     default:
-      variantStyles = "bg-gradient-to-r text-[#ffffff] from-blue-500 to-purple-500 hover:bg-gradient-to-l"; // Default to primary
+      variantStyles = "bg-gradient-to-r text-[#ffffff] inter-font font-semibold text-base from-[#0EA5E9] to-purple-500 hover:bg-gradient-to-l"; // Default to primary
   }
 
   switch (size) {
     case 'small':
-      sizeStyles = "px-3 py-1 text-sm";
+      sizeStyles = "px-3 py-2 text-sm";
       break;
     case 'medium':
-      sizeStyles = "px-6 py-2 text-base";
+      sizeStyles = "px-6 py-3 text-base";
       break;
     case 'large':
       sizeStyles = "px-8 py-8 text-lg";
