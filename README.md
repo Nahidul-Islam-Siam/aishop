@@ -28,7 +28,7 @@ AiShop is a platform offering a suite of AI-powered writing tools designed to he
 1.  **Clone the repository:**
 
     ```bash
-  https://github.com/Nahidul-Islam-Siam/aishop.git
+    git clone https://github.com/Nahidul-Islam-Siam/aishop.git
     ```
 
 2.  **Navigate to the project directory:**
@@ -57,3 +57,4 @@ To build the application for production, run:
 
 ```bash
 npm run build
+```
