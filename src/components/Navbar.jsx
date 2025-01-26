@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
 import React, { useState } from 'react';
-import logo from '../../public/Logo_white.png';
+import logo from '../../public/White Logo_Hotchpotch-01 1.svg';
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 import Button from './Button';
@@ -13,12 +13,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-gray-900 via-black to-gray-900 py-4 px-8 relative"> {/* Added relative for absolute positioning of menu */}
+    <nav className=" bg-black  py-4 px-8 relative mx-auto container "> {/* Added relative for absolute positioning of menu */}
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className='flex space-x-8'> {/* Removed unnecessary space-x-8 here */}
         <div className="flex items-center"> {/* Removed unnecessary space-x-8 here */}
-          <Image src={logo} height={32} width={78} alt="logo" />
+          <Image src={logo} height={60} width={100} alt="logo" />
         </div>
 
         {/* Desktop Navigation Links */}
