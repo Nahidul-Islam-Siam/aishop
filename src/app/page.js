@@ -1,5 +1,6 @@
 import CallToAction from "@/components/CallToAction";
 import Pricing from "@/components/PricePlan";
+import ToolGrid from "@/components/ToolGrid";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div className="">
  <Pricing/>
  <CallToAction/>
+ <ToolGrid/>
     </div>
   );
 }
