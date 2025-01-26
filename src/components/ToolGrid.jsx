@@ -39,10 +39,11 @@ const ToolGrid = () => {
                     </div>
                 </div>
             ))}
-            <div className='w-full text-center mt-4'>
-                <p className='text-gray-400 text-sm'>See all 54 available tools</p>
-            </div>
+       
         </div>
+        <div className='w-full border-b mt-4 inter-font font-semibold text-center'>
+                <p className='text-white text-sm  mb-24 mt-12'>See all 54 available tools</p>
+            </div>
       </div>
     );
 };
