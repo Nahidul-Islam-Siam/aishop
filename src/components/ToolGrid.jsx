@@ -18,8 +18,8 @@ const tools = [
 
 const ToolGrid = () => {
     return (
-      <div className=' bg-black'>
-           <header className='text-center mb-12'>
+      <div className=' bg-black border-b mb-12 mt-12 border-[#252835]'>
+           <header className='text-center '>
         <h1 className='outfit-font font-semibold text-white text-[42px] md:text-4xl text-center mb-6'>
         54 exciting writing tools
         </h1>
@@ -41,8 +41,8 @@ const ToolGrid = () => {
             ))}
        
         </div>
-        <div className='w-full border-b mt-4 inter-font font-semibold text-center'>
-                <p className='text-white text-sm  mb-24 mt-12'>See all 54 available tools</p>
+        <div className='w-full inter-font font-semibold text-center'>
+                <p className='text-white text-base inter-font font-semibold  mb-16 mt-8'>See all 54 available tools</p>
             </div>
       </div>
     );

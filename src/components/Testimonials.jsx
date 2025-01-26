@@ -63,8 +63,8 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-   <div className='bg-black'>
-               <header className='text-center mb-12'>
+   <div className='bg-black '>
+               <header className='text-center '>
         <h1 className='outfit-font font-semibold text-white text-[42px] md:text-4xl text-center mb-6'>
    What our customers say
         </h1>

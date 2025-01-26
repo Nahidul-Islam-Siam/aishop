@@ -27,7 +27,7 @@ const Footer = () => {
         ))}
       </div>
       <div className="container mx-auto mt-8 border-t border-gray-700 pt-4 text-center text-gray-400">
-      <p>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} Made By Nahidul Islam Siam. All rights reserved.</p>
       </div>
     </footer>
   );

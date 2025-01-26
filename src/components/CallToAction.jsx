@@ -2,8 +2,8 @@ import Button from "./Button";
 
 const CallToAction = () => {
     return (
-      <div className="bg-black ">
-        <div className="bg-gradient-to-r from-[#3258FF] to-purple-500 rounded-lg p-6 md:p-8 flex flex-col md:flex-row items-center md:justify-between space-y-6 md:space-y-0 mx-12">
+      <div className="bg-black mt-12">
+        <div className="bg-gradient-to-r from-[#3258FF] to-purple-500 rounded-lg p-6 md:p-8 flex flex-col md:flex-row items-center md:justify-between space-y-6 md:space-y-0 ">
           <div className="text-white text-center md:text-left">
             <p
               className="text-2xl sm:text-3xl outfit-font font-semibold leading-relaxed"
