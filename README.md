@@ -58,3 +58,7 @@ To build the application for production, run:
 ```bash
 npm run build
 ```
+
+## Visit the Website
+
+Check out the live application at [AiShop](https://aishop-nine.vercel.app/).
