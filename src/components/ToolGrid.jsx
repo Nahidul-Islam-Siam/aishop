@@ -18,7 +18,14 @@ const tools = [
 
 const ToolGrid = () => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-8 bg-black">
+      <div className=' bg-black'>
+           <header className='text-center mb-12'>
+        <h1 className='outfit-font font-semibold text-white text-[42px] md:text-4xl text-center mb-6'>
+        54 exciting writing tools
+        </h1>
+        <p className='inter-font text-lg text-gray-300'>AI engines take information from various sources and read <br/> them like a human would do.</p>
+      </header>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-8 bg-black">
             {tools.map((tool, index) => (
                 <div key={index} className="bg-[#1F2937] rounded-lg p-6 hover:bg-[#374151] transition duration-300">
                     <div className='flex gap-3'>
@@ -36,6 +43,7 @@ const ToolGrid = () => {
                 <p className='text-gray-400 text-sm'>See all 54 available tools</p>
             </div>
         </div>
+      </div>
     );
 };
 
