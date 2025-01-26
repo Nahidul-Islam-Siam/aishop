@@ -1,6 +1,7 @@
 import CallToAction from "@/components/CallToAction";
 import Hero2 from "@/components/H2";
 import Hero3 from "@/components/Hero3";
+import LogoSection from "@/components/Logo";
 import Pricing from "@/components/PricePlan";
 import System from "@/components/System";
 import Testimonials from "@/components/Testimonials";
@@ -10,6 +11,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="">
+      <LogoSection/>
             <Hero2/>
       <Hero3/>
       <System/>
